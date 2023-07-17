@@ -4,40 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NIMC BOT</title>
-  <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
-  <script src="https://mediafiles.botpress.cloud/111272f9-9cff-4055-83db-f8be765a3f68/webchat/config.js" defer></script>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <title>NIMC Chatbot</title>
 </head>
 
 <body class="bg-gray-100">
-  <header class="bg-blue-500 text-white py-4 px-8">
-    <h1 class="text-4xl font-bold">NIMC</h1>
+  <header class="py-8 bg-blue-500 text-white">
+    <div class="container mx-auto px-4">
+      <h1 class="text-3xl font-bold">National Identity Management Commission (NIMC)</h1>
+    </div>
   </header>
 
-  <main class="container mx-auto py-8 px-4">
-    <div class="flex flex-col items-center justify-center">
-      <h2 class="text-3xl font-bold mb-4">Meet Our Directors</h2>
-      
-      <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-        <div class="bg-white rounded-lg p-8 shadow-lg">
-          <img src="director1.jpg" alt="Ahmad Umaru Ba" class="w-32 h-32 rounded-full mx-auto mb-4">
-          <h3 class="text-2xl font-bold">Ahmad Umaru Ba</h3>
-          <p class="text-gray-700">Director</p>
-        </div>
+  <main class="container mx-auto px-4 py-12">
+    <div class="bg-white rounded-lg shadow-lg p-8">
+      <h2 class="text-2xl font-semibold mb-4">Solve Your Enrollment Problems with Our Chatbot</h2>
+      <ul class="list-disc ml-6">
+        <li class="my-2">Instant access to information about national identity card registration, procedures, and required documents.</li>
+        <li class="my-2">Step-by-step guidance for a smooth and hassle-free enrollment process.</li>
+        <li class="my-2">Real-time updates on the status of your national identity card application.</li>
+        <li class="my-2">Verify the validity and acceptability of your submitted documents with ease.</li>
+        <li class="my-2">Quick resolutions to common issues and FAQs during enrollment.</li>
+        <li class="my-2">Find the nearest enrollment centers and their specific requirements.</li>
+        <li class="my-2">Personalized assistance tailored to your unique enrollment needs.</li>
+        <li class="my-2">Stay informed with important updates and announcements from NIMC.</li>
+        <li class="my-2">Seamless handoff to human agents for complex issues or specific cases.</li>
+      </ul>
+      <p class="text-lg mt-4">Chat with our chatbot today and experience a smoother enrollment journey!</p>
+    </div>
 
-        <div class="bg-white rounded-lg p-8 shadow-lg">
-          <img src="director2.jpg" alt="Abdulazeez Umaru Ba" class="w-32 h-32 rounded-full mx-auto mb-4">
-          <h3 class="text-2xl font-bold">Abdulazeez Umaru Ba</h3>
-          <p class="text-gray-700">Director</p>
-        </div>
+    <div class="mt-12 flex items-center justify-center">
+      <img src="profile-image.jpg" alt="Profile Image" class="rounded-full h-32 w-32">
+      <div class="ml-6">
+        <h2 class="text-2xl font-semibold">Ahmad Umaru Ba</h2>
+        <p class="text-lg mt-2">CEO of BaBotz</p>
       </div>
     </div>
   </main>
 
-  <footer class="bg-blue-500 text-white py-4 px-8">
-    <p class="text-center">&copy; 2023 Oops. All rights reserved.</p>
+  <footer class="py-4 bg-gray-300 text-center">
+    <p>&copy; 2023 BaBotz</p>
   </footer>
+
+  <!-- Botpress Webchat Script -->
+  <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+  <script src="https://mediafiles.botpress.cloud/111272f9-9cff-4055-83db-f8be765a3f68/webchat/config.js" defer></script>
 </body>
 
 </html>
